@@ -1,0 +1,3 @@
+C:\Users\Bonavadeur\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py
+line 1045: add "pass"
+line 1046-1054: commented
