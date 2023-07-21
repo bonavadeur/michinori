@@ -1,7 +1,10 @@
-import pyshark, os, json, csv
+import pyshark, os, json, csv, platform
 from datetime import datetime
 
-os.system("cls")
+if(platform.system() == "Windows"):
+    os.system("cls")
+elif(platform.system() == "Linux"):
+    os.system("clear")
 
 
 
