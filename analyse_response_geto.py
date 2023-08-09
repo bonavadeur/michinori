@@ -56,12 +56,12 @@ def detectIP(components, componentIPs, pkt):
 
 #################### CONFIG HERE ####################
 
-latency = "30_25_10"
+latency = "0_0"
 app = "hello"
 userNode = "node3"
 components = ["3scale", "activator", app]
 
-dir = f"pcap/default/hello/0/"
+dir = f"pcap/custom/hello_2/{latency}/"
 
 with open(f'{dir}clusterinfo.json', 'r') as f:
     clusterInfo = json.load(f)
